@@ -7,7 +7,7 @@ from uart import *
 
 AIO_FEED_IDs = ["nutnhan1","nutnhan2"]
 AIO_USERNAME = "thinhphatmai2001"
-AIO_KEY = "aio_Yhyk75BKOy9m29hxtqS5RMDIuf3y"
+AIO_KEY = "aio_tjkB00zEfwMqkaeuuOglGVV5omMZ"
 
 def connected(client):
     print("Ket noi thanh cong ...")
@@ -58,14 +58,14 @@ while True:
     #         client.publish("cambien3",light)
     #         sensor_type = 0
     
-    # counter_ai = counter_ai - 1
-    # if counter_ai <= 0 :
-    #     # todo for AI
-    #     counter_ai = 5
-    #     previous_result = ai_result
-    #     ai_result = image_detector()
-    #     print("AI Output: ", ai_result)
-    #     if previous_result != ai_result:
-    #         client.publish("ai",ai_result[2:])
+    counter_ai = counter_ai - 1
+    if counter_ai <= 0 :
+        # todo for AI
+        counter_ai = 5
+        previous_result = ai_result
+        ai_result = image_detector()
+        print("AI Output: ", ai_result)
+        if previous_result != ai_result:
+            client.publish("ai",ai_result[2:])
     readSerial(client)        
     time.sleep(1)
