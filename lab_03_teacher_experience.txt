@@ -1,0 +1,6 @@
+thiết kế gói dữ liệu + kiểm tra lỗi (check sum, crc)
+datatype truyền  đi là cái gì => protocal +> parser. binary or hex
+mã hóa gọi dữ liệu
+handshaking: sync and async chỉ cần có sợi dây thì cổng com đã tồn tại
+MQTT working follow count
+cơ chế dám sát superviser: dám sát working follow  phải có 1 người dám sát các thiết bị trong hệ thống

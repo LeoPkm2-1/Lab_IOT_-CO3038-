@@ -1,0 +1,6 @@
+Làm thí nghiệm theo CÁ NHÂN (KHÔNG lập nhóm)
+Bắt buộc các bài Labs phải có: 1 file báo cáo pdf, và source code phải được đưa lên GIT cá nhân và đính kèm trong báo cáo.
+IDE lập trình bắt buộc là VS Code + WSL trong VS Code
+CI, CD, Docker sẽ được hướng dẫn trên lớp lý thuyết, NHƯNG PHẢI CÓ REPORT ĐÍNH KÈM THEO BÀI LAB Ở LỚP THỰC HÀNH.
+Nội dung và mô tả từng bài Labs sẽ được thông báo theo buổi học
+Email: vuthien@hcmut.edu.vn (0988333665)
