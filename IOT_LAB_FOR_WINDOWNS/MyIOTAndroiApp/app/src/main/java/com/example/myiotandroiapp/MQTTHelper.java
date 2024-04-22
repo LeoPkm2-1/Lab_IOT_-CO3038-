@@ -20,7 +20,7 @@ public class MQTTHelper {
 
     public final String[] arrayTopics = {"............","................"};
 
-    final String clientId = "123456789";
+    final String clientId = ".......................";
     final String username = ".......................................";
     final String password = "........................................";
 
