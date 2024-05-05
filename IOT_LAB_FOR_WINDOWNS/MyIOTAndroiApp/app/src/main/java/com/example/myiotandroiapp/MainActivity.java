@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
                 if(isOn == true){
-                    sendDataMQTT("...........","1");
+                    sendDataMQTT("thinhphatmai2001/feeds/nutnhan1","1");
                 }else{
-                    sendDataMQTT("...................","0");
+                    sendDataMQTT("thinhphatmai2001/feeds/nutnhan1","0");
                 }
             }
         });
@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
                 if(isOn == true){
-                    sendDataMQTT("..................","1");
+                    sendDataMQTT("thinhphatmai2001/feeds/nutnhan2","1");
                 }else{
-                    sendDataMQTT(".....................","0");
+                    sendDataMQTT("thinhphatmai2001/feeds/nutnhan2","0");
                 }
             }
         });
