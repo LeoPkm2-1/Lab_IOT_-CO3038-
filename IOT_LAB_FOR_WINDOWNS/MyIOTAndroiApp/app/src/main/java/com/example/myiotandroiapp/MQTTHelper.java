@@ -27,7 +27,7 @@ public class MQTTHelper {
     final String username = "................................";
     final String password = "............................";
 
-    final String serverUri = "tcp://io.adafruit.com:1883";
+    final String serverUri = "..............................";
 
     public MQTTHelper(Context context){
         mqttAndroidClient = new MqttAndroidClient(context, serverUri, clientId);
