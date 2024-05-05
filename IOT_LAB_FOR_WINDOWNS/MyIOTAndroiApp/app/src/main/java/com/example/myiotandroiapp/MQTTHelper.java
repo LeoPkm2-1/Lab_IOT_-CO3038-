@@ -18,8 +18,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 public class MQTTHelper {
     public MqttAndroidClient mqttAndroidClient;
 
-//    public final String[] arrayTopics = {"thinhphatmai2001/feeds/cambien1", "thinhphatmai2001/feeds/cambien2", "thinhphatmai2001/feeds/cambien3",
-//            "thinhphatmai2001/feeds/nutnhan1","thinhphatmai2001/feeds/nutnhan2"};
+
     public final String[] arrayTopics = {".......................", ".............................", "......................................",
             ".........................",".........................."};
 
