@@ -21,8 +21,17 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="9"
-            android:text="1914590"
+            android:layout_weight="4"
+            android:text="SmartHome "
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="ID:1914590"
             android:gravity="center"
             android:textColor="#ff0000"
             android:textSize="30dp"
@@ -32,47 +41,76 @@
 
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/txtTemperature"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#32adaa"
+                    android:text="30°c"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_margin="20dp"/>
+
+
+                <TextView
+                    android:id="@+id/txtHumidity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#18469e"
+                    android:text="70%"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_margin="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40">
+                    <TextView
+                        android:id="@+id/txtBrightness"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#f3ab19"
+                        android:text="99-lux"
+                        android:textSize="50dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        />
+            </LinearLayout>
+
+    </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="40"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/txtTemperature"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#ff0000"
-            android:text="30*c"
-            android:textSize="50dp"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:gravity="center"
-            android:layout_margin="20dp"/>
-
-
-        <TextView
-            android:id="@+id/txtHumidity"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#0000ff"
-            android:text="70%"
-            android:textSize="50dp"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            android:gravity="center"
-            android:layout_margin="20dp"/>
-    </LinearLayout>
-
+        android:layout_weight="15"></LinearLayout>
 
 
 
     <com.github.angads25.toggle.widget.LabeledSwitch
         android:id="@+id/btnLED"
-
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="20"
@@ -81,10 +119,8 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
         android:textSize="30dp"
-        app:textOn="ON"
-        app:textOff="OFF"
-
-
+        app:textOn="LED OFF"
+        app:textOff="LED ON"
         app:colorBorder="@color/colorAccent"
         app:on="false" />
 
@@ -99,19 +135,30 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
         android:textSize="30dp"
-        app:textOn="ON"
-        app:textOff="OFF"
-
-
+        app:textOn="PUMP OFF"
+        app:textOff="PUMP ON"
         app:colorBorder="@color/colorAccent"
         app:on="false" />
 
-
+    <com.github.angads25.toggle.widget.LabeledSwitch
+        android:id="@+id/btnDOOR"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        app:textOn="CLOSE DOOR"
+        app:textOff="OPEN DOOR"
+        app:colorBorder="@color/colorAccent"
+        app:on="false" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="10"></LinearLayout>
+        android:layout_weight="15"></LinearLayout>
 
 
 </LinearLayout>
